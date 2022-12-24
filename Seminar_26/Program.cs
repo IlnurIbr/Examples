@@ -1,5 +1,7 @@
 ﻿/*Задача 26: Напишите программу, которая принимает на вход число
 и выдает количество цифр в числе.*/
+
+
 int QuantityNumbers(int a)
 {
     int s = 0;
@@ -22,3 +24,15 @@ int EnterData(string text)
 int a = EnterData("Введите число");
 int q = QuantityNumbers(a);
 Console.WriteLine(q);
+
+
+/*
+string GetNumber(string text)
+{
+    Console.WriteLine(text);
+    string c = Console.ReadLine();
+    return c;
+}
+string number = GetNumber("Введите число");
+Console.WriteLine(number.Length);
+*/
